@@ -64,13 +64,14 @@ Fruit Ordering System
 
     # Choose one of the four options. Ask again if invalid.
     while True:
-        chosen_option = int(input("Please Enter Your Option: "))
-        if chosen_option in [1,2,3,4]: break
+        chosen_option = input("Please Enter Your Option: ")
+        if chosen_option.isdigit() and int(chosen_option) in [1,2,3,4]: break
+        # isdigit() checks if the variable is an integer.
 
     # match-case, only available for Python 3.10 and above. (Similar to switch-case in C/C++)
     # If using older versions of Python, please resort to using if-elif-else.
 
-    match chosen_option:
+    match int(chosen_option):
 
         #  Option 1: Order fruit
         case 1:
