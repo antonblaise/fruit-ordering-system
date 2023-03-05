@@ -1,7 +1,8 @@
 # Fruit Ordering System
  
 A sample solution (with detailed explanations) to a Python homework that asks to build a basic fruit ordering system.</br>
-An excellent homework that prompts the student to learn and train on almost all the highly useful basics of Python 3 programming, such as loops, dictionary handling, condition checks, etc.
+An excellent homework that prompts the student to learn and train on almost all the highly useful basics of Python 3 programming, such as loops, dictionary handling, condition checks, etc. </br></br>
+This sample answer is implemented with failsafe mechanisms, which can be studied to understand various condition checks and the usages of while-loop, continue and break.
 ## Expected outputs
 ### Option 1: Order Fruit
 ![image_2023-03-06_03-06-17](https://user-images.githubusercontent.com/68864109/222980807-c7650647-11be-4e03-8a67-7c93f5d78575.png)
