@@ -202,11 +202,21 @@ Fruit Ordering System
                 except ValueError:
                     continue
                 break
+            
+            # try-except: Run the codes under 'try'. 
+            # If the error stated at 'except' (which in this case is ValueError) occurs,
+            # run the codes under 'except'.
+            # continue vs break:
+            # 'continue' means to continue to the next cycle/loop
+            # 'break' means to break out of the loop. Stop looping.
+            # Therefore, from the codes above, if the 'continue' statement is run, the 'break' will be skipped.
+
             # User confirmation. Ask again if invalid. Non case sensitive.
             while True:
                 update = input("\nProceed to update? (Y/N) ").lower()
                 if update in ['y', 'n']: break
 
+            # Set new price to the chosen fruit 
             if update == 'y':
                 fruits_dict[fruit_to_update_price] = new_price
                 print(f"New price for {fruit_to_update_price} is ${new_price}.")
